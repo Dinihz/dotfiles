@@ -182,7 +182,34 @@ This configuration was inspired and adapted from my fav youtuber:
   }
 }
 ```
+## New User Settings (`settings.json`) 
+```
+{
+  "editor.fontFamily": "Cascadia Code",
+  "editor.fontSize": 14,
+  "editor.cursorWidth": 3,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.minimap.enabled": false,
+  "terminal.integrated.fontFamily": "monospace",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Japandi Nightfall",
+  "workbench.editor.showTabs": "multiple",
+  "workbench.sideBar.location": "right",
 
+  // Vim
+  "vim.cursorStylePerMode.insert": "line-thin",
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.cursorStylePerMode.replace": "block-outline",
+  "vim.easymotion": true,
+  "vim.targets.enable": true,
+  "vim.foldfix": true,
+  "vim.handleKeys": {
+    "<C-d>": true,
+    "<C-s>": false,
+    "<C-z>": false
+  }
+}
+```
 ## Keyboard Shortcuts (`keybindings.json`)
 
 ```json
