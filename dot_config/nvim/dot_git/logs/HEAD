@@ -1,0 +1,10 @@
+0000000000000000000000000000000000000000 34e7d29aa7b6e95cf09d62baf4c9082db5b129c0 dinihz <lucas87diniz@gmail.com> 1741727638 -0300	clone: from https://github.com/Dinihz/kickstart.nvim.git
+34e7d29aa7b6e95cf09d62baf4c9082db5b129c0 5b11da53a9c9e77045e058bafc35148c771a3d0a dinihz <lucas87diniz@gmail.com> 1741730030 -0300	commit: add neo-tree and presence
+0000000000000000000000000000000000000000 0000000000000000000000000000000000000000 dinihz <lucas87diniz@gmail.com> 1741730098 -0300	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 5b11da53a9c9e77045e058bafc35148c771a3d0a dinihz <lucas87diniz@gmail.com> 1741730098 -0300	Branch: renamed refs/heads/master to refs/heads/main
+5b11da53a9c9e77045e058bafc35148c771a3d0a 34e7d29aa7b6e95cf09d62baf4c9082db5b129c0 dinihz <lucas87diniz@gmail.com> 1741730411 -0300	checkout: moving from main to master
+34e7d29aa7b6e95cf09d62baf4c9082db5b129c0 5b11da53a9c9e77045e058bafc35148c771a3d0a dinihz <lucas87diniz@gmail.com> 1741730420 -0300	merge main: Fast-forward
+5b11da53a9c9e77045e058bafc35148c771a3d0a b35204376b304558c36410e0610b3506f08922af dinihz <lucas87diniz@gmail.com> 1741730792 -0300	commit: add presense.nvim
+b35204376b304558c36410e0610b3506f08922af 6d48716416b85e7196f7cac8af56fb82a87b8996 dinihz <lucas87diniz@gmail.com> 1741818897 -0300	commit: feat: add oil
+6d48716416b85e7196f7cac8af56fb82a87b8996 03486c38938dcd3fb0aaa5fccc058e18d56e15c3 dinihz <lucas87diniz@gmail.com> 1745961577 -0300	commit: chore: update init.lua
+03486c38938dcd3fb0aaa5fccc058e18d56e15c3 a9e954de6ce039dc10562709d1f10f62e00533ee dinihz <lucas87diniz@gmail.com> 1746368273 -0300	commit: chore: add ts prettier
