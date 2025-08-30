@@ -1,0 +1,28 @@
+{
+   "editor.fontFamily": "CaskaydiaMono Nerd Font Mono",
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.fontFamily": "monospace",
+    "workbench.editor.showTabs": "multiple",
+    "workbench.sideBar.location": "right",
+    "workbench.colorTheme": "Tokyo Night nv",
+    "workbench.preferredDarkColorTheme": "Tokyo Night nv",
+    "workbench.preferredHighContrastColorTheme": "Tokyo Night nv",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "window.zoomLevel": 1.1,
+    "editor.fontSize": 14,
+    "editor.cursorWidth": 3,
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "vim.cursorStylePerMode.insert": "line-thin",
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.cursorStylePerMode.replace": "block-outline",
+    "vim.easymotion": true,
+    "vim.targets.enable": true,
+    "vim.foldfix": true,
+    "vim.handleKeys": {
+    "<C-d>": true,
+    "<C-s>": false,
+    "<C-z>": false
+},
+"files.autoSave": "afterDelay",
+}
