@@ -20,183 +20,29 @@ This configuration was inspired and adapted from my fav youtuber:
 
 ```json
 {
-  "editor.fontFamily": "Hack Nerd Font Mono",
-  "workbench.iconTheme": "vscode-icons",
-  "workbench.editor.showTabs": "multiple",
-  "workbench.sideBar.location": "right",
-  "workbench.colorTheme": "Tokyo Night",
-  "workbench.preferredDarkColorTheme": "Tokyo Night",
-  "workbench.preferredHighContrastColorTheme": "Tokyo Night",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.tabSize": 2,
-  "window.zoomLevel": 2,
-  "editor.suggestOnTriggerCharacters": true,
-  "editor.fontSize": 14,
-  "editor.lineHeight": 24,
-  "editor.fontWeight": "300",
-  "editor.cursorWidth": 5,
-  "editor.fontLigatures": true,
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "editor.tabCompletion": "on",
-  "editor.minimap.enabled": false,
-  "workbench.editor.editorActionsLocation": "hidden",
-  "workbench.layoutControl.enabled": false,
-  "window.commandCenter": false,
-  "breadcrumbs.enabled": false,
-  "workbench.activityBar.location": "hidden",
-  "editor.quickSuggestions": {
-    "comments": "on",
-    "strings": "on",
-    "other": "on"
-  },
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": [
-          //following will be in italic
-          "comment",
-          "entity.name.type.class", //class names
-          "keyword", //import, export, return…
-          "constant", //String, Number, Boolean…, this, super
-          "storage.modifier", //static keyword
-          "storage.type.class.js" //class keyword
-        ],
-        "settings": {
-          "fontStyle": "italic"
-        }
-      },
-      {
-        "scope": [
-          //following will be excluded from italics (VSCode has some defaults for italics)
-          "invalid",
-          "keyword.operator",
-          "constant.numeric.css",
-          "keyword.other.unit.px.css",
-          "constant.numeric.decimal.js",
-          "constant.numeric.json"
-        ],
-        "settings": {
-          "fontStyle": ""
-        }
-      }
-    ]
-  },
-  "prettier.singleQuote": true,
-  "prettier.semi": true,
-  "prettier.trailingComma": "es5",
-  "prettier.arrowParens": "always",
-  "javascript.validate.enable": true, //here is false
-  "css.validate": true, // here is false
-  "editor.linkedEditing": true,
-  "editor.links": true,
-  "editor.minimap.renderCharacters": false,
-  "editor.wordBasedSuggestions": "allDocuments", //hre are off
-  "editor.parameterHints.enabled": true,
-  "files.trimTrailingWhitespace": true,
-  "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
-  "terminal.integrated.lineHeight": 1,
-  "explorer.confirmDelete": false,
-  "editor.matchBrackets": "always",
-  "workbench.editor.highlightModifiedTabs": true,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "git.autofetch": true,
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.suggestSelection": "first",
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "diffEditor.ignoreTrimWhitespace": false,
-  "editor.largeFileOptimizations": false,
-  "editor.letterSpacing": 0.3,
-  "editor.renderWhitespace": "boundary",
-  "extensions.ignoreRecommendations": true,
-  "emmet.excludeLanguages": ["markdown"],
-  "emmet.showExpandedAbbreviation": "never",
-  "security.workspace.trust.untrustedFiles": "open",
-  "terminal.integrated.showExitAlert": false,
-  "editor.inlineSuggest.enabled": true,
-  "editor.cursorBlinking": "solid",
-  "editor.cursorStyle": "line-thin",
-  "terminal.integrated.cursorStyle": "line",
-  "editor.rulers": [80],
-  "screencastMode.fontSize": 32,
-  "screencastMode.mouseIndicatorSize": 40,
-  "screencastMode.verticalOffset": 10,
-  "zenMode.centerLayout": false,
-  "zenMode.fullScreen": false,
-  "zenMode.hideLineNumbers": false,
-  "window.autoDetectHighContrast": false,
-  "search.defaultViewMode": "tree",
-  "editor.guides.bracketPairs": "active",
-  //"git.openRepositoryInParentFolders": "never"
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "vim.leader": "<space>",
-  "editor.lineNumbers": "relative",
-  "editor.accessibilitySupport": "off",
-  "explorer.confirmDragAndDrop": false,
-  "workbench.editor.empty.hint": "hidden",
-  "git.ignoreRebaseWarning": true,
-  "accessibility.signals.terminalBell": {
-    "sound": "on"
-  },
-  "terminal.integrated.enableVisualBell": true,
-  "workbench.editor.customLabels.patterns": {
-    "**/{layout,page}.tsx": "${dirname} ${filename}"
-  },
-  "terminal.integrated.fontSize": 14,
-  "extensions.experimental.affinity": {
-    "vscodevim.vim": 1
-  },
-  "workbench.activityBar.orientation": "vertical",
-  "cursor.chat.alwaysSearchWeb": true,
-  "editor.stickyScroll.enabled": false,
-  "vim.cursorStylePerMode.insert": "line-thin",
-  "vim.cursorStylePerMode.normal": "block",
-  "vim.cursorStylePerMode.replace": "block-outline",
-  "vim.easymotion": true,
-  "vim.targets.enable": true,
-  "vim.foldfix": true,
-  "vim.handleKeys": {
-    "<C-d>": true,
-    "<C-s>": false,
-    "<C-z>": false
-  }
-}
-```
-## New User Settings (`settings.json`) 
-```
-{
   "editor.fontFamily": "Cascadia Code",
-  "editor.fontSize": 14,
+  "editor.fontSize": 15,
   "editor.cursorWidth": 3,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.minimap.enabled": false,
-  "terminal.integrated.fontFamily": "monospace",
   "workbench.iconTheme": "vscode-icons",
-  "workbench.colorTheme": "Japandi Nightfall",
   "workbench.editor.showTabs": "multiple",
   "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Tokyo Night nv",
 
-  // Vim
+  "editor.lineNumbers": "relative",
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [80, 120],
+
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.eol": "\n",
+  "editor.formatOnSave": true,
+
+
   "vim.cursorStylePerMode.insert": "line-thin",
   "vim.cursorStylePerMode.normal": "block",
   "vim.cursorStylePerMode.replace": "block-outline",
@@ -207,9 +53,15 @@ This configuration was inspired and adapted from my fav youtuber:
     "<C-d>": true,
     "<C-s>": false,
     "<C-z>": false
+  },
+  "database-client.autoSync": true,
+  "vsicons.dontShowNewVersionMessage": true,
+}
+
   }
 }
 ```
+
 ## Keyboard Shortcuts (`keybindings.json`)
 
 ```json
