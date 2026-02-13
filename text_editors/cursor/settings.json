@@ -1,0 +1,25 @@
+{
+  "editor.fontFamily": "MesloLGL Nerd Font Mono",
+  "editor.fontSize": 15,
+  "editor.cursorWidth": 2,
+  "editor.minimap.enabled": false,
+  "workbench.editor.showTabs": "multiple",
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.eol": "\n",
+  "editor.formatOnSave": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "git.confirmSync": false,
+  "git.suggestSmartCommit": false,
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Cherry Blossom Dimmed Dusk",
+  "workbench.iconTheme": "vscode-icons",
+}
