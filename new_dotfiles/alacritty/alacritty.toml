@@ -1,0 +1,35 @@
+live_config_reload = true
+import = [
+  "~/.config/alacritty/themes/themes/base16_default_dark.toml"
+]
+
+
+[window]
+padding = { x = 10, y = 10 }
+dynamic_padding = true
+decorations = "None"
+opacity = 1.0
+
+[font]
+size = 16.0
+
+normal = { family = "IoskeleyMono Nerd Font", style = "normal" } 
+italic = { family = "IoskeleyMono Nerd Font", style = "normal" } 
+bold = { family = "IoskeleyMono Nerd Font", style = "normal" } 
+
+[colors.primary]
+background = '#000000'
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+style = "Block"
+unfocused_hollow = true
+
+[mouse]
+hide_when_typing = true
